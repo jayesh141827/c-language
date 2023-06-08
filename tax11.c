@@ -7,20 +7,18 @@ int main()
 	int i;
 	
 	
-	i =10;
 	
-	do{
+	for( i =1 ;i<=10 ; i++){
 	
+	
+	
+
 	printf("%d\n",i);
-		
-		i--;
-	}
+
+     	
+
+}
 	
-	while(i>=1);
-	{
-		
-	
-	}
 	
 	return 0;
 }

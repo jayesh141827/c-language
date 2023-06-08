@@ -1,54 +1,28 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
+int main()
+{ 
+
 	
-	int a,b,c;
-	
-	printf("Enter a :");
-	scanf("%d",a);
-	
-	printf("Enter b:");
-	scanf("%d",b);
-	
-	printf("Enter c :");
-	scanf("%d",c);
+	int i;
 	
 	
-	if(a<b){
-      
-	  if(a<c){
-          
-		  ptintf("A is min/n");	  	
-	  	
-	  }		
-	   else{
-	   	   
-	   	   printf("C is min/n");
-	   	
-	   	
-	   }	
-		
-		
+	i =1;
+	do{
+	
+	
+	
+
+	printf("%d\n",i);
+
+     	i++;
+
+}
+	while(i<=10);
+	{
+	
+	
 	}
-	else{
-		
-		if(b<c){
-			
-			
-			printf("B is min/n");
-			
-			
-		}
-		
-		else{
-			
-			printf("C is min/n");
-			
-			
-		}
-	}
-	
-	
 	
 	return 0;
 }

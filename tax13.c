@@ -4,20 +4,17 @@ int main()
 {
     int i, b;
 
-    i=1;
     
+    printf("Print all natural numbers from 1 to : ");
     scanf("%d", &b);
-    do{
-    	printf("%d\n", i);
-        i++;
-	}
 
     
     
-    while(i<=b);
+    for( i=1 ; i<=b ; i++)
+    
     {
-        
-    }
+        printf("%d\n", i);
+   }
 
     return 0;
 }
