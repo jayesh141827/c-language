@@ -1,20 +1,24 @@
 #include<stdio.h>
-
-int main()
-{
-    int n ,i ,f=1;
-    
+int main(){
 	
-	    
-    printf("\n Enter The Number:");
-    scanf("%d",&n);
-     
-  
-    for(i=1 ; i<=n ; i++)
-    {
-        f=f*i;
-      
-    }
-     
-    printf("\n The Factorial of %d is %d",n,f);
-    }
+	int r , c , cont=1 ;
+	
+	for(r=1 ; r<=5 ; r++){
+		
+		
+		
+		for(c=1 ; c<=r ; c++){
+			
+			printf("%d ",cont);
+			cont++;
+			
+			
+			
+		}
+		printf("\n");
+	}
+	
+	
+	
+	return 0;
+}

@@ -1,23 +1,24 @@
-#include <stdio.h>
-
-int main()
-{
-    int i, b;
-
-    i=1;
-    
-    scanf("%d", &b);
-    do{
-    	printf("%d\n", i);
-        i++;
+#include<stdio.h>
+int main(){
+	
+	int r , c ;
+	
+	for(r=1 ; r<=5 ; r++){
+		
+		
+		
+		for(c=1 ; c<=r ; c++){
+			
+			printf("%d",r);
+			
+			
+			
+			
+		}
+		printf("\n");
 	}
-
-    
-    
-    while(i<=b);
-    {
-        
-    }
-
-    return 0;
+	
+	
+	
+	return 0;
 }

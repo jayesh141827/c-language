@@ -1,32 +1,31 @@
-#include <stdio.h>
-
-int main()
-{
+#include<stdio.h>
+int main(){
 	
-	int number;
-
-	int n;
-
+	int r , c ;
 	
-	
-
-
-	printf("Enter the value of N: ");
-	scanf("%d",&n);
-
-	for(number=1 ; number<=n ; number++)
-
-
-	
-	
-	{
-		
-	    if(number%2 == 1)
-			printf("%d ",number);
+	for(r=5 ; r>=1 ; r--){
 		
 		
 		
+		for(c=r ; c<=5 ; c++){
+			
+			if(c%2==0){
+				
+				
+			  printf("0");
+			}
+			else{
+				printf("1");
+			}
+			
+			
+			
+			
+		}
+		printf("\n");
 	}
-
+	
+	
+	
 	return 0;
 }

@@ -1,28 +1,24 @@
-#include <stdio.h>
-
-int main()
-{ 
-
+#include<stdio.h>
+int main(){
 	
-	int i;
+	int r , c ;
 	
-	
-	i =1;
-	do{
-	
-	
-	
-
-	printf("%d\n",i);
-
-     	i++;
-
-}
-	while(i<=10);
-	{
-	
-	
+	for(r=1 ; r<=5 ; r++){
+		
+		
+		
+		for(c=1 ; c<=r ; c++){
+			
+			printf("%d",c);
+			
+			
+			
+			
+		}
+		printf("\n");
 	}
+	
+	
 	
 	return 0;
 }

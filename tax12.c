@@ -1,26 +1,17 @@
 #include <stdio.h>
 
 int main()
-{ 
+{
+    int r, c;
+    for(r=5;r>=1;r--)
+    {
+        for(c=r;c>=1;c--)
+        {
+            printf("%d",r);
+        }
+        printf("\n");
+    }
 
-	
-	int i;
-	 
-	 
-	 
-	for(i=10 ; i>=1 ; i--)
-	
-	
-	
-
-	
-	
-	
-	{
-		
-		printf("%d\n",i);
-		
-	}
-	
-	return 0;
+    return 0;
 }
+

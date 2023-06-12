@@ -1,22 +1,24 @@
-#include <stdio.h>
-int main() {
-    int n, i, sum = 0;
-
-    printf("Enter a positive integer: ");
-    scanf("%d", &n);
-    
-    do{
-    	sum += i;
-        
-        i++;
+#include<stdio.h>
+int main(){
+	
+	int r , c ;
+	
+	for(r=1 ; r<=5 ; r++){
+		
+		
+		
+		for(c=r ; c<=5 ; c++){
+			
+			printf("%d",c);
+			
+			
+			
+			
+		}
+		printf("\n");
 	}
-
-    while(i<=n);
-	 {
-        
-    }
-    printf("Sum = %d", sum);
-
-    
-    return 0;
+	
+	
+	
+	return 0;
 }

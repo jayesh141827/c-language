@@ -1,21 +1,28 @@
 #include<stdio.h>
-int main (){
+int main(){
 	
-	int b , n;
-
-
- n=3000;
-
-	for( b=2000 ; b<=n ; b++) 
-
-
-	{
+	int r , c ;
 	
-		if(b%4 == 0)
-			printf("%d ",b);
+	for(r=1 ; r<=5 ; r++){
 		
 		
 		
+		for(c=1 ; c<=r ; c++){
+			
+			if(c%2==0){
+				
+				
+			  printf("0");
+			}
+			else{
+				printf("1");
+			}
+			
+			
+			
+			
+		}
+		printf("\n");
 	}
 	
 	

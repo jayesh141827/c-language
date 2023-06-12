@@ -1,15 +1,15 @@
 #include<stdio.h>
 int main(){
 	
-	int r , c ;
+	char r , c ;
 	
-	for(r=1 ; r<=5 ; r++){
+	for(r='A' ; r<='E' ; r++){
 		
 		
 		
-		for(c=1 ; c<=r ; c++){
+		for(c='A' ; c<=r ; c++){
 			
-			printf("*");
+			printf("%c ",c);
 			
 			
 			

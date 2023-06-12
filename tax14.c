@@ -2,22 +2,16 @@
 
 int main()
 {
-    int i, b;
-
-    
-    
-    printf("Print all natural numbers from 1 to : ");
-    scanf("%d", &i);
-
-    
-    
-    for( b=1 ; i>=b ; i--)
-    
-   
+    int r, c;
+    for(r=5;r>=1;r--)
     {
-        printf("%d\n", i);
-        
+        for(c=r;c>=1;c--)
+        {
+            printf("*");
+        }
+        printf("\n");
     }
 
     return 0;
 }
+
