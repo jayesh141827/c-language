@@ -1,24 +1,98 @@
 #include<stdio.h>
+
 int main(){
 	
-	int r , c ;
+	int  a,b,c,d;
 	
-	for(r=1 ; r<=5 ; r++){
+	printf("Enter a :");
+	scanf("%d/n",&a);
+	
+	printf("Enter b :");
+	scanf("%d/n",&b);
+	
+	printf("Enter c :");
+	scanf("%d/n",&c);
+	
+	printf("Enter d :");
+	scanf("%d/n",&d);
+	 
+	 
+	 a>b ?
+       
+	   a>c ?
+	   	
+	   	
+	   	a>d ?
+	   		
+	   		printf("A is max")
+	   		
+	   		
+		   	   	
+	   	:
+	   		
+	   		printf("D is max")
+	   		
+	   		
+		   	 	
+	   :
+	   	
+	   	c>d ?
+	   		
+	   		printf("C is max")
+	   		
+	   		
+	   		
+		   :
+	   	
+	   		
+	   	
+	   		printf("D is max")
+	   		
+	   		
+	   		
+		   
+	   	
+	   	
+	 	
+	 
+	:
+		
+		b>c ?			
+			
+			b>d ?
+				
+				printf("B is max")
+				
+			:
+			
+				
+				printf("D is max")
+				
+				
+			
+			
+			
+		
+		:
+			
+			c>d ?
+				
+				printf("C is max")
+				
+				
+			
+			
+		    :
+				
+				
+				printf("D is max");
+				
+			
 		
 		
-		
-		for(c=1 ; c<=r ; c++){
-			
-			printf("%d",r);
-			
-			
-			
-			
-		}
-		printf("\n");
-	}
 	
 	
 	
 	return 0;
 }
+

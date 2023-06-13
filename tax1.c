@@ -1,23 +1,20 @@
 #include<stdio.h>
-int main(){
+
+int main (){
 	
-	int r , c ;
+	int a,b;
 	
-	for(r=1 ; r<=5 ; r++){
-		
-		
-		
-		for(c=1 ; c<=r ; c++){
-			
-			printf("%d",c);
-			
-			
-			
-			
-		}
-		printf("\n");
-	}
+	 printf("Enter a :");
+	 scanf("%d",&a);
 	
+	 printf("Enter b :");
+	 scanf("%d",&b);
+	
+	
+	a>b ? 
+	    printf("A is max") 
+	: 
+	     printf("B is max ");	
 	
 	
 	return 0;
