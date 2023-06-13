@@ -1,98 +1,21 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
-	
-	int  a,b,c,d;
-	
-	printf("Enter a :");
-	scanf("%d/n",&a);
-	
-	printf("Enter b :");
-	scanf("%d/n",&b);
-	
-	printf("Enter c :");
-	scanf("%d/n",&c);
-	
-	printf("Enter d :");
-	scanf("%d/n",&d);
-	 
-	 
-	 a>b ?
-       
-	   a>c ?
-	   	
-	   	
-	   	a>d ?
-	   		
-	   		printf("A is max")
-	   		
-	   		
-		   	   	
-	   	:
-	   		
-	   		printf("D is max")
-	   		
-	   		
-		   	 	
-	   :
-	   	
-	   	c>d ?
-	   		
-	   		printf("C is max")
-	   		
-	   		
-	   		
-		   :
-	   	
-	   		
-	   	
-	   		printf("D is max")
-	   		
-	   		
-	   		
-		   
-	   	
-	   	
-	 	
-	 
-	:
-		
-		b>c ?			
-			
-			b>d ?
-				
-				printf("B is max")
-				
-			:
-			
-				
-				printf("D is max")
-				
-				
-			
-			
-			
-		
-		:
-			
-			c>d ?
-				
-				printf("C is max")
-				
-				
-			
-			
-		    :
-				
-				
-				printf("D is max");
-				
-			
-		
-		
-	
-	
-	
-	return 0;
+int main()
+{
+    int i, b;
+
+    
+    printf("Print all natural numbers from 1 to : ");
+    scanf("%d", &b);
+
+    i=1;
+    
+    while(i<=b)
+    
+    {
+        printf("%d\n", i);
+        i++;
+    }
+
+    return 0;
 }
-

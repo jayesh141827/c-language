@@ -1,29 +1,32 @@
-#include<stdio.h>
+#include <stdio.h>
+
+int main()
+{
+	
+	int number;
+
+	int n;
+
+	
+	number=1;
 
 
-int main(){
-	 int x;
-	 
-	 
-	 printf("Enter of x velue: ");
-	scanf("%d",&x);
+	printf("Enter the value of N: ");
+	scanf("%d",&n);
+
 	
-	int y;
-	printf("Enter of y velue: ");	
+
+
 	
-	scanf("%d",&y);
-	
-	
-	
-	int z;
-	printf("Enter of z velue: ");	
-	
-	scanf("%d",&z);
-	
-	
-	int ans;
-	
-	ans = (x*x*x) - (y*y*y) - (z*z*z) - (3*(x+y)) + (3*(y+z)) + (3*(z+x));
-	
-	
+	while(number<=n)
+	{
+		
+		if(number%2 == 0)
+			printf("%d ",number);
+		
+		
+		number++;
+	}
+
+	return 0;
 }

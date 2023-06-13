@@ -1,21 +1,25 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main (){
+int main()
+{ 
+
 	
-	int a,b;
-	
-	 printf("Enter a :");
-	 scanf("%d",&a);
-	
-	 printf("Enter b :");
-	 scanf("%d",&b);
+	int i;
 	
 	
-	a>b ? 
-	    printf("A is max") 
-	: 
-	     printf("B is max ");	
+	i =1;
 	
+	
+	printf("Numbers from 1 to 10: \n");
+	
+	
+	while(i<=10)
+	{
+		
+		printf("%d\n",i);
+		
+		i++;
+	}
 	
 	return 0;
 }
