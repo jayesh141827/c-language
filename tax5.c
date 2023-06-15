@@ -1,32 +1,17 @@
-#include <stdio.h>
+#include<stdio.h>
 
-int main()
-{
+int main(){
 	
-	int number;
-
-	int n;
-
-	
-	number=1;
-
-
-	printf("Enter the value of N: ");
-	scanf("%d",&n);
-
-	
-
-
-	
-	while(number<=n)
-	{
-		
-		if(number%2 == 1)
-			printf("%d ",number);
-		
-		
-		number++;
+	int r,c,k;
+	for(r=1 ; r<=5 ; r++){
+	for(k=r;k<=4;k++){
+			printf(" ");
+		}
+		for(c=1 ; c<=r ; c++){
+			printf("%d",r);
+		}
+		printf("\n");
 	}
-
+	
 	return 0;
 }

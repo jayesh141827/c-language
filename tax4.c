@@ -1,23 +1,17 @@
-#include <stdio.h>
+#include<stdio.h>
 
-int main()
-{
-    int i, b;
-
-    
-    
-    printf("Print all natural numbers from 1 to : ");
-    scanf("%d", &i);
-
-    
-    
-    
-    
-    while(i>=b)
-    {
-        printf("%d\n", i);
-        i--;
-    }
-
-    return 0;
+int main(){
+	
+	int r,c,k;
+	for(r=5 ; r>=1 ; r--){
+		for(k=1;k<r;k++){
+			printf(" ");
+		}
+		for(c=5 ; c>=r ; c--){
+			printf("%d",c);
+		}
+		printf("\n");
+	}
+	
+	return 0;
 }

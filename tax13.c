@@ -1,24 +1,17 @@
 #include<stdio.h>
+
 int main(){
 	
-	int r , c ;
-	
-	for(r=1 ; r<=5 ; r++){
-		
-		
-		
-		for(c=1 ; c<=r ; c++){
-			
-			printf("*");
-			
-			
-			
-			
+	char r,c,k;
+	for(r='a' ; r<='e' ; r++){
+		for(k=r;k<='d';k++){
+			printf(" ");
 		}
-		printf("\n");
-	}
+		for(c='a';c<=r;c++){
+			printf("%c",c);
+		}
+				printf("\n");
 	
-	
-	
+}
 	return 0;
 }

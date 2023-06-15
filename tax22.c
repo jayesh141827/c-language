@@ -1,24 +1,23 @@
 #include<stdio.h>
+
 int main(){
 	
-	char r , c , cont='A' ;
-	
-	for(r='A' ; r<='E' ; r++){
-		
-		
-		
-		for(c='A' ; c<=r ; c++){
+	int r,c,k;
+	for(r=5; r>=1 ; r--){
+		for(k=r;k<=4;k++){
+			printf(" ");
+		}
+		for(c=r; c>=1 ; c--){
+			if(c%2==0){
 			
-			printf("%c ",cont);
-			cont++;
-			
-			
-			
+			printf("|");
+		}
+		else{
+			printf("-");	
+		}
 		}
 		printf("\n");
 	}
-	
-	
 	
 	return 0;
 }

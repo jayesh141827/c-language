@@ -1,31 +1,17 @@
 #include<stdio.h>
-int main (){
+
+int main(){
 	
-	int number;
-
-	int n = 3000;
-
-	
-	number=2000;
-
-
-	
-
-	
-
-
-	
-	while(number<=n)
-	{
-		
-		if(number%4 == 0)
-			printf("%d ",number);
-		
-		
-		number++;
+	int r,c,k;
+	for(r=5 ; r>=1 ; r--){
+	for(k=r;k<=4;k++){
+			printf(" ");
+		}
+		for(c=1; c<=r ; c++){
+			printf("%d",c);
+		}
+		printf("\n");
 	}
-	
-	
 	
 	return 0;
 }

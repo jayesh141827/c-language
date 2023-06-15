@@ -1,30 +1,17 @@
 #include<stdio.h>
+
 int main(){
 	
-	int r , c ;
-	
-	for(r=5 ; r>=1 ; r--){
-		
-		
-		
-		for(c=1 ; c<=r ; c++){
-			
-			if(c%2==0){
-				
-				
-			  printf("0");
-			}
-			else{
-				printf("1");
-			}
-			
-			
-			
-			
+	char r,c,k;
+	for(r='a' ; r<='e' ; r++){
+		for(k='a';k<r;k++){
+			printf(" ");
+		}
+		for(c=r; c<='e' ; c++){
+			printf("%c",c);
 		}
 		printf("\n");
 	}
+	
 	return 0;
 }
-	
-	

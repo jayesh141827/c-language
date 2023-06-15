@@ -1,25 +1,17 @@
-#include <stdio.h>
+#include<stdio.h>
 
-int main()
-{ 
-
+int main(){
 	
-	int i;
+	int r,c,k;
+	for(r=1 ; r<=5 ; r++){
+		for(k=r;k<=4;k++){
+			printf(" ");
+		}
+		for(c=1;c<=r;c++){
+			printf("%d",c);
+		}
+				printf("\n");
 	
-	
-	i =1;
-	
-	
-	printf("Numbers from 1 to 10: \n");
-	
-	
-	while(i<=10)
-	{
-		
-		printf("%d\n",i);
-		
-		i++;
-	}
-	
+}
 	return 0;
 }
