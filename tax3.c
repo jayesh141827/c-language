@@ -1,17 +1,42 @@
-#include<stdio.h>
-
-int main(){
+#include<stdio.h>    
+     
+int main()    
+{    
+    int n , i , sum=0;
+    float avg
 	
-	int r,c,k;
-	for(r=5 ; r>=1 ; r--){
-			for(k=1;k<r;k++){
-			printf(" ");
-		}
-		for(c=r ; c<=5 ; c++){
-			printf("%d",c);
-		}
-		printf("\n");
+	
+	
+	;
+    printf("Enter size of arry: ");
+    scanf("%d",&n);
+    
+    int a[n];
+	for(i=0 ; i<n ; i++) {
+		
+		printf("Enter elements of arry[%d] : ",i);
+		
+		scanf("%d",&a[i]);
 	}
-	
-	return 0;
-}
+		
+		for(i=0 ; i<n ; i++){
+			
+			
+			printf("%d",a[i]);
+			
+			
+   
+   for(i = 0; i < n; i++) {
+      sum = sum + a[i];
+   }
+   
+   avg = sum / n;
+   printf("Average of array values is %.2f", avg);   
+   
+		}
+		
+		
+	   
+    
+        
+    }      

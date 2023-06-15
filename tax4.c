@@ -1,17 +1,44 @@
-#include<stdio.h>
-
-int main(){
-	
-	int r,c,k;
-	for(r=5 ; r>=1 ; r--){
-		for(k=1;k<r;k++){
-			printf(" ");
-		}
-		for(c=5 ; c>=r ; c--){
-			printf("%d",c);
-		}
-		printf("\n");
+#include<stdio.h>    
+     
+int main()    
+{    
+    int n , i;
+    printf("Enter size of arry: ");
+    scanf("%d",&n);
+    
+    int a[n];
+    int b[n];
+    int sum[n];
+    
+	for(i=0 ; i<n ; i++) {
+		
+		printf("Enter elements of arry[%d] : ",i);
+		
+		scanf("%d",&a[i]);
 	}
-	
-	return 0;
-}
+		
+		
+		
+		
+		for(i=0 ; i<n ; i++) {
+		
+		printf("Enter elements of arry[%d] : ",i);
+		
+		scanf("%d",&b[i]);
+	}
+		for(i=0 ; i<n ; i++){
+		
+		
+		
+		sum[i] = a[i] + b[i];
+		printf("%d\n",sum[i]);
+	}
+		
+		
+		
+		
+		
+	   
+    
+        
+    }      
