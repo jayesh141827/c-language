@@ -1,46 +1,44 @@
-#include<stdio.h>    
-     
-int main()    
-{    
-    int n , i , m , j;
-    printf("Enter size of rows: ");
-    scanf("%d",&m);
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+	int z,x;
+	
+	char a[] = "yaxitdesai@gmail.com";
+	char b[] = "yaxitdesai";
+	
+    char G[50];
+	char d[50];
+	
+	
+	printf("enter email : ");
+	scanf("%s",&G);
+	
+	
+	printf("Enter password :");
+	scanf(" %s",&d);
+	
+    z =	strcmp(a,G);
     
-    
-    printf("Enter size of column: ");
-    scanf("%d",&n);
-    
-    int a[m][n];
-	for(i=0 ; i<m ; i++) {
-		
-		for(j=0 ; j<n ; j++){
-		
-		
-		
-		printf("Enter elements of arry[%d][%d] : ",i,j);
-		
-		scanf("%d",&a[i][j]);
-		
-	}
-}
-		for(i=0 ; i<m ; i++){
-			
-			for(j=0 ; j<n ; j++){
-					
-		    	printf("%d",a[i][j]);
-		   }
-		   printf("\n");
-	}
-		
-		
-		return 0;
-	}
-		
-	   
-    
-    
-      
-     
-        
-      
 
+    
+    
+	x = strcmp(b,d);
+	
+	
+
+	
+	
+	if(z==0 && x==0){
+		
+	  printf("Login successfully");	
+		
+	}
+	else{
+		
+	printf("invalide! Try Again");	
+		
+	}
+	
+	return 0;
+}
